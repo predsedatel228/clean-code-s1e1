@@ -30,7 +30,7 @@
 .section__task, .section__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .section-add-item__button-wrapper {
   display: flex;
@@ -117,7 +117,7 @@
   width: 226px;
 }
 .section__list-item >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .button__image {
   height: 2em;
@@ -130,18 +130,18 @@
 
 /* Completed */
 #completed-tasks .section__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .section__task_display_none {
-  display: none
+  display: none;
 }
 
 .section__list-item_edit-mode .section__task_display_none {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .section__list-item_edit-mode .section__label {
