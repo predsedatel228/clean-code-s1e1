@@ -110,16 +110,16 @@
   vertical-align: middle;
 }
 
-.section__list-item > input[type="checkbox"] {
+.section__checkbox {
   margin: 0 10px;
 }
-.section__list-item > label {
+.section__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.section__list-item > input[type="text"] {
+.section__task {
   width: 226px;
 }
 .button__image {
