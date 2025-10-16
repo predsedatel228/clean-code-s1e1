@@ -27,6 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.top-section {
+ margin-top: 13px;
+}
 .task__input,
 .top-section__input {
   width: 56%;
@@ -35,6 +38,9 @@
 }
 .top-section__container {
   display: flex;
+}
+.todo-section {
+    margin-top: 14px;
 }
 .todo-section__task-list,
 .completed-section__task-list {
@@ -111,7 +117,7 @@
 /* Task list */
 .task {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 19px 0;
   border-bottom: 1px solid #eee;
 
   display: flex;
